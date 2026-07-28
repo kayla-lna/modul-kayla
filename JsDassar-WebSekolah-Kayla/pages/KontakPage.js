@@ -1,15 +1,16 @@
 import { Component } from "../components/Component.js";
 import { Navbar } from "../components/Navbar.js";
 import { Footer } from "../components/Footer.js";
-export class HomePage extends Component {
+export class KontakPage extends Component {
 render() {
-const navbar = new Navbar({ activePage: "home" }).render();
+const navbar = new Navbar({ activePage: "kontak" }).render();
 const footer = new Footer().render();
 return `
 ${navbar}
 <main>
-<h1>Selamat Datang di Website Sekolah</h1>
-<p>Ini adalah halaman utama (Home) dari website sekolah kami.</p>
+<h1>Hubungi Kami</h1>
+<p>Email: info@smkyadikasoreang.sch.id</p>
+<p>Telepon: (021) 123-4567</p>
 </main>
 ${footer}
 `;
