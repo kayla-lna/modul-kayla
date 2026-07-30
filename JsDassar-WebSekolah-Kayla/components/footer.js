@@ -5,7 +5,7 @@ const tahun = new Date().getFullYear();
 return `
 <hr/>
 <footer>
-<small>&copy; ${tahun} SMK Yadika Soreang - Semua hak dilindungi</small>
+<small>&copy; ${tahun} SMK Ceriya - Semua hak akan dilindungi</small>
 </footer>
 `;
 }

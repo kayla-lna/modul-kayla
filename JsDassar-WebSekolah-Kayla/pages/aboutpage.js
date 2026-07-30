@@ -3,13 +3,13 @@ import { Navbar } from "../components/Navbar.js";
 import { Footer } from "../components/Footer.js";
 export class AboutPage extends Component {
 render() {
-const navbar = new Navbar({ activePage: "about" }).render();
+const navbar = new Navbar({namaSekolah: "SMK Ceriya", activePage: "about" }).render();
 const footer = new Footer().render();
 return `
 ${navbar}
 <main>
 <h1>Tentang Sekolah</h1>
-<p>SMK Yadika Soreang berdiri sejak tahun 1990, berkomitmen
+<p>SMK Ceriya berkomitmen
 mencetak generasi yang cerdas dan berkarakter.</p>
 </main>
 ${footer}
