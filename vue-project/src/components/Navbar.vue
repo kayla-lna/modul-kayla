@@ -3,7 +3,8 @@
  <h2> Kayla Luna - Onlineshop</h2>
  <RouterLink to="/">Landing</RouterLink> |
  <RouterLink to="/product">Product</RouterLink> |
- <RouterLink to="/about">About</RouterLink>
+ <RouterLink to="/about">About</RouterLink> |
+ <router-link to="/contact">Contact</router-link>
  </nav>
  <hr />
 </template>
