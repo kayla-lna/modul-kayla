@@ -4,7 +4,7 @@ const tahun = new Date().getFullYear()
 <template>
  <hr />
  <footer>
- <small>&copy; {{ tahun }} Kayla Luna — Onlineshop
+ <small>&copy; {{ tahun }} Balvencia — Onlineshop
 </small>
  </footer>
 </template>

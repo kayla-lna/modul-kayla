@@ -11,9 +11,9 @@ import TeamCard from '../components/TeamCard.vue'
 
 // TODO: ganti dengan data tim kalian sendiri (min. 3 anggota)
 const daftarTim = [
-  { id: 1, nama: 'Nama Anggota 1', jabatan: 'Founder & Owner', foto: '' },
-  { id: 2, nama: 'Nama Anggota 2', jabatan: 'Manajer Operasional', foto: '' },
-  { id: 3, nama: 'Nama Anggota 3', jabatan: 'Kepala Pemasaran', foto: '' },
+  { id: 1, nama: 'Kayla', jabatan: 'Founder & Owner', foto: '' },
+  { id: 2, nama: 'Divya', jabatan: 'Manajer Operasional', foto: '' },
+  { id: 3, nama: 'Queen', jabatan: 'Kepala Pemasaran', foto: '' },
 ]
 </script>
 
@@ -34,7 +34,7 @@ const daftarTim = [
         </p>
       </div>
       <div class="cerita-gambar">
-        <img src="https://placehold.co/400x300" alt="Toko Kami" />
+        <img src="https://i.pinimg.com/280x280_RS/58/2d/3c/582d3c6c77f152ad533fb9743d580207.jpg" alt="Toko Kami" />
       </div>
     </section>
 
@@ -57,8 +57,8 @@ const daftarTim = [
 <style scoped>
 .banner {
   /* TODO: samakan warna dengan Landing Page kalian, misalnya: */
-  background-color: #4f46e5;
-  color: white;
+  background-color: lavenderblush;
+  color: plum;
   text-align: center;
   padding: 3rem 1rem;
 }

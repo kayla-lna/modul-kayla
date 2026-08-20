@@ -17,9 +17,9 @@ const pesan = ref('')
       <!-- Kolom 1: Info Kontak -->
       <div class="info-kontak">
         <h2>Info Kontak</h2>
-        <p>📍 TODO: alamat toko/sekolah kalian</p>
-        <p>📞 nomor telepon </p>
-        <p>✉️ TODO: alamat email</p>
+        <p>📍 Cikutra, Bandung</p>
+        <p>📞 089504130233 </p>
+        <p>✉️ Balvencia9@gmail.com</p>
         <p>🕑 Open 09:00 - Close 21:00</p>
       </div>
 
@@ -52,8 +52,8 @@ const pesan = ref('')
 <style scoped>
 .banner {
   /* TODO: samakan dengan warna banner Landing Page & About Page */
-  background-color: #4f46e5;
-  color: white;
+  background-color: lavenderblush;
+  color: plum;
   text-align: center;
   padding: 3rem 1rem;
 }
@@ -106,12 +106,12 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: #4f46e5; /* TODO: samakan dengan warna aksen toko kalian */
+  border-color: white; /* TODO: samakan dengan warna aksen toko kalian */
 }
 
 button {
   /* TODO: samakan dengan warna tombol Landing Page */
-  background: #4f46e5;
+  background: white;
   color: white;
   border: none;
   padding: 0.7rem 2rem;

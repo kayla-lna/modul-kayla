@@ -19,7 +19,9 @@ function tambahKeKeranjang(nama) {
 
 <template>
  <div class="card">
+ <div class="gambar-wrap">
  <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" />
+ </div>
  <h3>{{ nama }}</h3>
  <p>Rp {{ harga.toLocaleString('id-ID') }}</p>
  <button @click="tambahKeKeranjang(nama)">Tambah ke Keranjang</button>
@@ -35,10 +37,34 @@ function tambahKeKeranjang(nama) {
  border: 1px solid #ddd;
  border-radius: 10px;
  padding: 14px;
- width: 200px;
+ width: 220px;
  text-align: center;
+ display: flex;
+ flex-direction: column;
 }
-.card img { width: 100%; border-radius: 6px; cursor: pointer; }
+.gambar-wrap {
+ width: 100%;
+ aspect-ratio: 3 / 4;
+ overflow: hidden;
+ border-radius: 6px;
+}
+.gambar-wrap img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ cursor: pointer;
+ display: block;
+}
+.card h3 {
+ font-size: 14px;
+ line-height: 1.3;
+ min-height: 2.6em;
+ overflow: hidden;
+ display: -webkit-box;
+ -webkit-line-clamp: 2;
+ -webkit-box-orient: vertical;
+}
+.card button { margin-top: auto; }
 .preview-overlay {
  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
  background: rgba(0, 0, 0, 0.7);

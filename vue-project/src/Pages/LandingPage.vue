@@ -10,11 +10,11 @@
  </main>
 </template> -->
 
-<template>
+<template>    
   <div class="landing-wrapper">
     <!-- Navigation Bar -->
-    <header class="navbar">
-      <div class="brand-logo">Butik Luna — Onlineshop</div>
+<header class="navbar">
+      <div class="brand-logo">Balvencia — Onlineshop</div>
       <nav class="nav-links">
         <RouterLink to="/" class="nav-item">Landing</RouterLink>
         <RouterLink to="/product" class="nav-item">Product</RouterLink>
@@ -67,7 +67,7 @@
 
     <!-- Footer -->
     <footer class="footer-text">
-      © 2026 Butik Luna — Onlineshop 
+      © 2026 Balvencia — Onlineshop 
     </footer>
   </div>
 </template>
@@ -94,7 +94,7 @@
 .brand-logo {
   font-weight: 700;
   font-size: 0.95rem;
-  color: powderblue;
+  color: white;
 }
 
 .nav-links {
@@ -104,7 +104,7 @@
 
 .nav-item {
   text-decoration: none;
-  color: powderblue;
+  color: white;
   font-weight: 500;
   font-size: 0.9rem;
   transition: color 0.2s ease;
@@ -157,7 +157,7 @@
 .cta-button:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
-  background-color: blueviolet;
+  background-color: white;
 }
 
 /* 2. FEATURES GRID (Flex Layout + Gap) */
